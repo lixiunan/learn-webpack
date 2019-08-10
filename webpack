@@ -1,1 +1,7 @@
-
+一.webpack安装
+  1.创建文件夹  mkdir webpack-test
+  2.进入文件夹  cd webpack-test
+  3.初始化npm   npm init
+  4.安装webpack  npm install webpack --save-dev
+  5.文件夹下新建js  hello.js
+  6.命令行打包该文件 webpack hello.js hello.bundle.js (前面是原js文件名称，后面是打包后的js名称)
